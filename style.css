@@ -1,0 +1,144 @@
+body{
+    width: 100%; 
+    background-image: url("Resources/assets/images/bg.jpg");
+    background-size: 100%;
+} 
+
+.jumbotron{
+    background-color: rgba(50, 115, 220, 0.3);
+}
+
+h2{
+    color: rgb(55, 170, 250);
+}
+
+.navbar{
+    background-color: rgba(50, 115, 220, 0.3) !important;
+}
+
+.navbar-header{
+    background-color:rgb(55, 170, 250, 0.3);
+    position: relative;
+    margin-left: 4.5% !important;
+    padding-left: 3%;
+    padding-right: 2%;
+}
+
+.navbar-brand {
+    color: white !important; 
+    font-size: 30px;   
+}
+
+.navbar-brand i{
+    color:rgb(161, 206, 238) !important;
+    font-size: 20px !important;
+}
+
+.nav li{
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+.navbar a:hover {
+    color:rgb(161, 206, 238) !important;
+  }
+
+p{
+    color: whitesmoke;
+}
+
+.main img{
+    margin-right: 3%;
+}
+
+.main p{
+     text-align: justify;
+     font-size: medium;
+ }
+
+.right img{
+    margin: 10%;
+}
+
+.right img:hover {
+    /* border: 0.5px solid rgb(55, 170, 250);  */
+    box-shadow: 10px 10px 40px rgb(55, 170, 250);
+  }
+
+
+@media (max-width: 768px)
+{
+   
+    .navbar-header{
+        margin-left: -5% !important;  
+    }
+
+    .right img{
+        margin:auto;
+        margin-bottom: 2%;
+    }
+} 
+
+
+
+/* ================comparison.html============================== */
+.comparison h3{
+    color: rgb(55, 170, 250);
+    margin: 5%;
+    text-align: center;
+}
+
+
+.comparison img{
+    margin-bottom:5%;
+}
+  
+
+
+.plot img:hover {
+    border: 10px solid rgb(55, 170, 250, 0.5); 
+    box-shadow: 10px 10px 50px rgb(55, 170, 250);
+  }
+  
+
+/* ========================data.html======================= */
+
+thead{
+    background-color: rgb(138, 190, 227);
+}
+
+th, td {
+    padding: 2%;
+    text-align: left;
+  }
+
+tr:nth-child(even) {
+    background-color: #bbdff2;
+}
+
+
+/* =============== maxTemp.html================== */
+
+.mainPlot img{
+    margin-bottom: 3%;
+}
+
+.mainPlot p{
+    text-align: justify;
+    font-size: medium;
+}
+
+.activeImg {
+    width: 97%;
+    border: 5px solid rgb(55, 170, 250, 0.8); 
+    box-shadow: 10px 10px 50px rgb(55, 170, 250);
+
+  }
+
+.activeImgH{
+    border: 5px solid rgb(55, 170, 250, 0.8); 
+    box-shadow: 10px 10px 50px rgb(55, 170, 250);
+
+}
+
+
